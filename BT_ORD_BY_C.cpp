@@ -115,7 +115,7 @@ void bt_aux(Graph G, vector <int> & cor, int k){
         }
 
 
-    if (maior_cor > teto){
+    if (maior_cor >= teto){
         return;
     }
 
