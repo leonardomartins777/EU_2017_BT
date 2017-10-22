@@ -94,7 +94,7 @@ void bt_SL_Aux(Graph G, vector <int> & cor, int k,vector<int> ordem/*,int teto*/
         }
 
 
-    if (maior_cor > teto){
+    if (maior_cor >= teto){
         return;
     }
     
